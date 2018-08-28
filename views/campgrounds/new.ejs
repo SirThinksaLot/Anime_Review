@@ -1,0 +1,15 @@
+<% include ../partials/header%>
+<div class ="container">
+	<div class="row">
+		<h1> Create new campground</h1>
+		<div style="width:30% margin:0 auto;">
+			<form action="/index" method="POST">
+				<input class="form-control" type="text" name="cname" placeholder="name">
+				<input class="form-control" type="text" name="cimage" placeholder="image url">
+				<input class="form-contol"  type="text" name="cdescription" placeholder="Summary">
+				<input class=" btn btn-lg btn-default"type="submit">
+			</form>
+	</div>	
+	<a href = "/index">Go back</a> 
+</div>
+<% include ../partials/footer%>

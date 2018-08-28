@@ -1,0 +1,17 @@
+.thumbnail img{
+	width:100%;
+}
+
+.thumbnail .caption-full{
+	padding:9px;
+}
+
+.well .btn{
+	display:inline;
+}
+.jumbotron{
+	position:relative;
+	z-index:0;
+	background-image:url("https://images3.alphacoders.com/820/thumb-1920-82017.jpg");
+	color:#fff;
+}

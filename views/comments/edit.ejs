@@ -1,0 +1,14 @@
+<h1>Edit comment </h1>
+<% include ../partials/header%>
+<div class ="container">
+	<div class="row">
+		<h1> Edit comment</h1>
+		<div style="width:30% margin:0 auto;">
+			<form action="/index/<%=campground_id%>/comments/<%=comment._id%>?_method=PUT" method="POST">
+				<input class="form-control" type="text" name="comment[text]" value="<%=comment.text%>">
+				<input class=" btn btn-lg btn-default"type="submit">
+			</form>
+	</div>	
+	<a href = "/index">Go back</a> 
+</div>
+<% include ../partials/footer%>
